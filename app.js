@@ -19,11 +19,16 @@ function displayTime() {
         hours = hours - 12;
     }
 
+    if(months > 9){
+        document.getElementById('months').innerHTML = months;
+    }else{
+        document.getElementById('months').innerHTML = '0' + months;
+    }
+
     document.getElementById('hours').innerHTML = hours;
     document.getElementById('minutes').innerHTML = minutes;
     document.getElementById('seconds').innerHTML = seconds;
     document.getElementById('days').innerHTML = days;
-    document.getElementById('months').innerHTML = months;
     document.getElementById('year').innerHTML = year;
 }
 setInterval(displayTime, 10);
