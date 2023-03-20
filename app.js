@@ -18,6 +18,12 @@ function displayTime() {
     if (hours > 12) {
         hours = hours - 12;
     }
+    
+        if(months > 9){
+        document.getElementById('months').innerHTML = months;
+    }else{
+        document.getElementById('months').innerHTML = '0' + months;
+    }
 
     if(months > 9){
         document.getElementById('months').innerHTML = months;
