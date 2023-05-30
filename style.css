@@ -41,22 +41,19 @@ body {
 
 @media (max-width: 480px) {
     .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
         text-align: center;
-        font-size: 24px;
-        padding: 10px;
     }
 
     .date {
-        font-size: 18px;
+        margin-left: 10px;
     }
 
-    #year {
-        font-weight: bold;
-    }
 
     .footer {
-        font-size: 14px;
-        background-color: #f2f2f2;
-        padding: 5px;
+        text-align: center;
     }
 }
