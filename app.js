@@ -14,15 +14,15 @@ function displayTime() {
     days = days < 10 ? `0${days}` : days;
     months = months < 10 ? `0${months}` : months;
     meridian.textContent = hours >= 12 ? meridian.textContent = 'PM' : meridian.textContent = 'AM';
-
+    
     if (hours > 12) {
         hours = hours - 12;
         hours = hours < 10 ? `0${hours}` : hours;
     }
 
-    document.getElementById('hours').innerHTML = hours;
-    document.getElementById('minutes').innerHTML = minutes;
     document.getElementById('seconds').innerHTML = seconds;
+    document.getElementById('minutes').innerHTML = minutes;
+    document.getElementById('hours').innerHTML = hours;
     document.getElementById('days').innerHTML = days;
     document.getElementById('months').innerHTML = months;
     document.getElementById('year').innerHTML = year;
