@@ -1,0 +1,39 @@
+@media (width <=600px) {
+
+    span.sign {
+        font-size: 2rem;
+    }
+
+     .container {
+        width: 70%;
+        margin: 250px auto;
+     }
+
+     #hours {
+        font-size: 2rem;
+     }
+
+     #minutes {
+        font-size: 2rem;
+     }
+
+     #seconds {
+        font-size: 2rem;
+     }
+
+     #meridian {
+        font-size: 2rem;
+     }
+
+     #days {
+        font-size: 2rem;
+     }
+
+     #months{
+        font-size: 2rem;
+     }
+
+     #year{
+        font-size: 2rem;
+     }
+}
